@@ -21,7 +21,7 @@ function isValidMew(mew) {
 }
 
 app.get('/', (request, response) => {
-
+    // response.sendFile('./client/index.html');
 });
 
 app.get('/mews', (request, response) => {

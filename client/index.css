@@ -15,3 +15,76 @@ div.mews {
     width: 80%;
     margin: 0 auto;
 }
+
+.u-full-width {
+    text-align: center;
+}
+
+span.break {
+    opacity: 0.5;
+    display: block;
+    width: 80%;
+    border-bottom: 1px solid black;
+    margin: 20px auto;
+}
+
+form.mew-form {
+    border: 1px solid black;
+    border-radius: 15px 70px 15px 70px;
+    padding: 20px;
+    background-color: #d0f1fb;
+    background-image: url("form.png");
+    background-size: contain;
+}
+
+div.mew {
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 15px 70px 15px 70px;
+    margin: 20px auto;
+    background-color: #d0f1fb;
+    background-image: url("mew.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -130px 0px;
+    /*background-color: rgba(208, 241, 251,0.9);*/
+}
+
+h4.mew-header {
+    width: 80%;
+    border-bottom: 1px solid black;
+    background-color: rgba(208, 241, 251,0.95);
+    margin: 0 auto;
+}
+
+small.mew-date {
+    /*border-top: 1px solid black;*/
+    position: relative;
+    left: 180px;
+}
+
+body {
+    background-image: linear-gradient(#33C3F0, #FF6699);
+}
+
+main {
+    /*background-color: #33C3F0;*/
+}
+
+div.mews p{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid rgb(208, 241, 251);
+    border-radius: 15px 70px 15px 70px;
+    background-color: rgba(208, 241, 251,0.95);
+}
+
+label.label{
+    /*color: white;*/
+    font-size: 30px;
+
+    width: 12%;
+    border: 1px solid rgb(255, 102, 153);
+    border-radius: 15px 70px 15px 70px;
+    background-color: rgba(255, 102, 153,0.9);
+}

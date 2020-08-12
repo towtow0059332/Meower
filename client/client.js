@@ -49,9 +49,13 @@ function listAllMews() {
             mews.reverse();
             mews.forEach(mew => {
                 const div = document.createElement('div');
-                const header = document.createElement('h3');
+                const header = document.createElement('h4');
                 const contents = document.createElement('p');
                 const date = document.createElement('small');
+
+                div.className = 'u-full-width mew';
+                header.className = 'mew-header';
+                date.className = 'mew-date';
 
                 header.textContent = mew.name;
                 contents.textContent = mew.content;

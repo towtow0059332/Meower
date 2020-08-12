@@ -13,15 +13,18 @@
 </header>
 <main>
     <form class="mew-form" action="">
-        <label for="name">Name</label>
+        <label class="label" for="name">Name</label>
         <input class="u-full-width" type="text" id="name" name="name">
-        <label for="content">Mew</label>
+        <label class="label" for="content">Mew</label>
         <textarea class="u-full-width" type="text" id="content" name="content"></textarea>
-        <button class="button-primary">Send Your Mew</button>
+        <div class="u-full-width">
+            <button class="button-primary">Send Your Mew</button>
+        </div>
     </form>
-<div class="loading">
-    <img src="loading.gif" alt="">
-</div>
+    <div class="loading">
+        <img src="loading.gif" alt="">
+    </div>
+    <span class="break"></span>
     <div class="mews"></div>
 </main>
 <script src="client.js"></script>
