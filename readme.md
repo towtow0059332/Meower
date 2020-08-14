@@ -6,5 +6,5 @@ live-server
 node.js*
 
 #Sceenchost
-![Screenshot](demo.png)
+![Screenshot](demo/demo.png)
 
