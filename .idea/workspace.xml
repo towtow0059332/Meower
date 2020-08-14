@@ -7,7 +7,11 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1fqo9eWEOeuM02NHDJP2luJP662" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -15,6 +19,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.18.3" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.12.54" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -30,10 +37,23 @@
       <workItem from="1597098925322" duration="1695000" />
       <workItem from="1597113758759" duration="9087000" />
       <workItem from="1597181166841" duration="18745000" />
+      <workItem from="1597267077584" duration="680000" />
+      <workItem from="1597282108120" duration="27000" />
+      <workItem from="1597282705458" duration="126000" />
+      <workItem from="1597306587801" duration="336000" />
+      <workItem from="1597282110777" duration="140000" />
+      <workItem from="1597322629692" duration="611000" />
+      <workItem from="1597408572666" duration="373000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="757" y="131" key="FileChooserDialogImpl" timestamp="1597272187766">
+      <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state x="757" y="131" key="FileChooserDialogImpl/0.40.1536.824@0.40.1536.824" timestamp="1597272187766" />
   </component>
 </project>

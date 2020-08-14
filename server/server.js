@@ -4,6 +4,7 @@ const monk = require('monk');
 const Filter = require("bad-words");
 const rateLimit = require('express-rate-limit');
 // const MongoClient = require('mongodb').MongoClient;
+const path = require('path');
 
 const app = express();
 const db = monk(process.env.MONGO_URI || 'localhost/meower');
@@ -14,15 +15,19 @@ const filter = new Filter();
 
 app.use(cors());
 app.use(express.json());
+app.use(express.static(path.join(__dirname, '../client')));
 
 function isValidMew(mew) {
     return mew.name && mew.name.toString().trim() !== '' &&
         mew.content && mew.content.toString().trim() !== ''
 }
 
-app.get('/', (request, response) => {
-    // response.sendFile('./client/index.html');
-});
+// app.get('/', (request, response) => {
+//     // response.sendFile('./client/index.html');
+//     // response.json({
+//     //     message:"lelelell"
+//     // });
+// });
 
 app.get('/mews', (request, response) => {
     // client.connect(err => {
